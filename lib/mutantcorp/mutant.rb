@@ -1,9 +1,7 @@
 require "mutantcorp/mutant/version"
+require 'mutantcorp/mutant/mutant'
 
 module Mutantcorp
   module Mutant
-    def self.hello
-      puts 'gem magic!'
-    end
   end
 end
