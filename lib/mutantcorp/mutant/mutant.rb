@@ -16,6 +16,14 @@ module Mutantcorp
           power: @power
         }
       end
+
+      def fight
+        if @power
+          "Aww, cuss. This mutant is using #{@power}!"
+        else
+          "Oops. This mutant doesn't have a mutant power."
+        end
+      end
     end
   end
 end
